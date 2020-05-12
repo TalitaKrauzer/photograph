@@ -1,0 +1,39 @@
+body {
+background-image: url("https://lh3.googleusercontent.com/proxy/NMqFWbILgDmK3H2Ztxwf0UN1UIlgjgRDzw3sAtQOHYGBnu9ArMXvMKsQD32jkUnuEjH8HkJMBbK4Ud_vyj4_68SPmPAY");
+background-size: auto 100vh;
+font-family: helvetic;
+height: 100vh; 
+}
+.menu {
+  background-color: white;
+}
+.menu ul {
+  display: flex;
+  justify-content: space-around;
+}
+.menu li {
+  list-style: none;
+}
+a {
+  color: teal;
+  text-decoration: none;
+}
+a hover {
+  text-decoration: underline;
+}
+.site-title , 
+.site-subtitle {
+  text-align: center;
+  color: whitesmoke;
+}
+.site-subtitle {
+  font-style: italic;
+}
+.site-title {
+  font-size: 50px;
+}
+.development {
+  font-size: 20x;
+  color: white;
+  text-align: center;
+}
